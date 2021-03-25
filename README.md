@@ -1,2 +1,2 @@
 # GreenSpace_Thesis
-![Reproducibility](https://github.com/espm-157/final-individual-getlaam/workflows/Reproducibility/badge.svg)
+![Reproducibility](https://github.com/getlaam/GreenSpace_Thesis.git/workflows/Reproducibility/badge.svg)
