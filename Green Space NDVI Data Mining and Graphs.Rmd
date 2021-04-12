@@ -2521,11 +2521,126 @@ hist(naip_ndvi_ji,
   col = "springgreen",
   xlab = "NDVI Index Value")
 ``` 
+```{r}
+# import the naip pre-fire data
+naip_multispectral_kai <- stack("~/GreenSpace_Thesis/Google Earth Images/Kai Ping, China.png")
+# convert data into rasterbrick for faster processing
 
+naip_multispectral_kai <- brick(naip_multispectral_kai)
 
+# calculate ndvi with naip
+naip_multispectral_kai[[4]]
 
+# calculate NDVI using the red (band 1) and nir (band 4) bands
+naip_ndvi_kai <- (naip_multispectral_kai[[4]] - naip_multispectral_kai[[1]]) / (naip_multispectral_kai[[4]] + naip_multispectral_kai[[1]])
 
+# plot the data
+plot(naip_ndvi_kai,
+     main = "NDVI of Kai Ping, China",
+     axes = FALSE, box = FALSE)
 
+# view distribution of NDVI values
+hist(naip_ndvi_kai,
+  main = "NDVI: Distribution of pixels\n NAIP Kai Ping, China",
+  col = "springgreen",
+  xlab = "NDVI Index Value")
+``` 
+```{r}
+# import the naip pre-fire data
+naip_multispectral_kat <- stack("~/GreenSpace_Thesis/Google Earth Images/Katy, TX.png")
+# convert data into rasterbrick for faster processing
+
+naip_multispectral_kat <- brick(naip_multispectral_kat)
+
+# calculate ndvi with naip
+naip_multispectral_kat[[4]]
+
+# calculate NDVI using the red (band 1) and nir (band 4) bands
+naip_ndvi_kat <- (naip_multispectral_kat[[4]] - naip_multispectral_kat[[1]]) / (naip_multispectral_kat[[4]] + naip_multispectral_kat[[1]])
+
+# plot the data
+plot(naip_ndvi_kat,
+     main = "NDVI of Katy, TX",
+     axes = FALSE, box = FALSE)
+
+# view distribution of NDVI values
+hist(naip_ndvi_kat,
+  main = "NDVI: Distribution of pixels\n NAIP Katy, TX",
+  col = "springgreen",
+  xlab = "NDVI Index Value")
+``` 
+```{r}
+# import the naip pre-fire data
+naip_multispectral_ki <- stack("~/GreenSpace_Thesis/Google Earth Images/Kihei, HI.png")
+# convert data into rasterbrick for faster processing
+
+naip_multispectral_ki <- brick(naip_multispectral_ki)
+
+# calculate ndvi with naip
+naip_multispectral_ki[[4]]
+
+# calculate NDVI using the red (band 1) and nir (band 4) bands
+naip_ndvi_ki <- (naip_multispectral_ki[[4]] - naip_multispectral_ki[[1]]) / (naip_multispectral_ki[[4]] + naip_multispectral_ki[[1]])
+
+# plot the data
+plot(naip_ndvi_ki,
+     main = "NDVI of Kihei, HI",
+     axes = FALSE, box = FALSE)
+
+# view distribution of NDVI values
+hist(naip_ndvi_ki,
+  main = "NDVI: Distribution of pixels\n NAIP Kihei, HI",
+  col = "springgreen",
+  xlab = "NDVI Index Value")
+``` 
+```{r}
+# import the naip pre-fire data
+naip_multispectral_kla <- stack("~/GreenSpace_Thesis/Google Earth Images/Klamath Falls, OR.png")
+# convert data into rasterbrick for faster processing
+
+naip_multispectral_kla <- brick(naip_multispectral_kla)
+
+# calculate ndvi with naip
+naip_multispectral_kla[[4]]
+
+# calculate NDVI using the red (band 1) and nir (band 4) bands
+naip_ndvi_kla <- (naip_multispectral_kla[[4]] - naip_multispectral_kla[[1]]) / (naip_multispectral_kla[[4]] + naip_multispectral_kla[[1]])
+
+# plot the data
+plot(naip_ndvi_kla,
+     main = "NDVI of Klamath Falls, OR",
+     axes = FALSE, box = FALSE)
+
+# view distribution of NDVI values
+hist(naip_ndvi_kla,
+  main = "NDVI: Distribution of pixels\n NAIP Klamath Falls, OR",
+  col = "springgreen",
+  xlab = "NDVI Index Value")
+``` 
+```{r}
+# import the naip pre-fire data
+naip_multispectral_la <- stack("~/GreenSpace_Thesis/Google Earth Images/La Canada, CA.png")
+# convert data into rasterbrick for faster processing
+
+naip_multispectral_la <- brick(naip_multispectral_la)
+
+# calculate ndvi with naip
+naip_multispectral_la[[4]]
+
+# calculate NDVI using the red (band 1) and nir (band 4) bands
+naip_ndvi_la <- (naip_multispectral_la[[4]] - naip_multispectral_la[[1]]) / (naip_multispectral_la[[4]] + naip_multispectral_la[[1]])
+
+# plot the data
+plot(naip_ndvi_la,
+     main = "NDVI of La Cañada, CA",
+     axes = FALSE, box = FALSE)
+
+# view distribution of NDVI values
+hist(naip_ndvi_la,
+  main = "NDVI: Distribution of pixels\n NAIP La Cañada, CA",
+  col = "springgreen",
+  xlab = "NDVI Index Value")
+``` 
 
 
 
@@ -2638,7 +2753,12 @@ im = Imperial Beach, CA
 ir = Irvine, CA 
 je = Jeju-si, Jeju-do, SK
 ji= Jiaozuo, Henan, China  
-
+kai = Kai Ping, China
+kat = Katy, TX
+ki = Kihei, HI
+kla = Klamath Falls, OR
+la = La Cañada, CA
+laf = Lafayette, CA
 
 
 # Comparing NDVI Values and Frequencies Across Locations 
