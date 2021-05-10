@@ -4908,6 +4908,32 @@ hist(naip_ndvi_scc,
   col = "springgreen",
   xlab = "NDVI Index Value")
 ``` 
+```{r}
+# import the naip pre-fire data
+naip_multispectral_sd <- stack("~/GreenSpace_Thesis/Google Earth Images/San Diego, CA.png")
+# convert data into rasterbrick for faster processing
+
+naip_multispectral_sd <- brick(naip_multispectral_sd)
+
+# calculate ndvi with naip
+naip_multispectral_sd[[4]]
+
+# calculate NDVI using the red (band 1) and nir (band 4) bands
+naip_ndvi_sd <- (naip_multispectral_sd[[4]] - naip_multispectral_sd[[1]]) / (naip_multispectral_sd[[4]] + naip_multispectral_sd[[1]])
+
+# plot the data
+plot(naip_ndvi_sd,
+     main = "NDVI of San Diego, CA",
+     axes = FALSE, box = FALSE)
+
+# view distribution of NDVI values
+hist(naip_ndvi_sd,
+  main = "NDVI: Distribution of pixels\n NAIP San Diego, CA",
+  col = "springgreen",
+  xlab = "NDVI Index Value")
+``` 
+
+
 
 
 
