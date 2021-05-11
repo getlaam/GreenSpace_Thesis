@@ -5612,10 +5612,277 @@ hist(naip_ndvi_shap,
   col = "springgreen",
   xlab = "NDVI Index Value")
 ``` 
+```{r}
+# import the naip pre-fire data
+naip_multispectral_she <- stack("~/GreenSpace_Thesis/Google Earth Images/Shenzhen, China.png")
+# convert data into rasterbrick for faster processing
 
+naip_multispectral_she <- brick(naip_multispectral_she)
 
+# calculate ndvi with naip
+naip_multispectral_she[[4]]
 
+# calculate NDVI using the red (band 1) and nir (band 4) bands
+naip_ndvi_she <- (naip_multispectral_she[[4]] - naip_multispectral_she[[1]]) / (naip_multispectral_she[[4]] + naip_multispectral_she[[1]])
 
+# plot the data
+plot(naip_ndvi_she,
+     main = "NDVI of Shenzhen, China",
+     axes = FALSE, box = FALSE)
+
+# view distribution of NDVI values
+hist(naip_ndvi_she,
+  main = "NDVI: Distribution of pixels\n NAIP Shenzhen, China",
+  col = "springgreen",
+  xlab = "NDVI Index Value")
+``` 
+```{r}
+# import the naip pre-fire data
+naip_multispectral_sher <- stack("~/GreenSpace_Thesis/Google Earth Images/Sherman Oaks, CA.png")
+# convert data into rasterbrick for faster processing
+
+naip_multispectral_sher <- brick(naip_multispectral_sher)
+
+# calculate ndvi with naip
+naip_multispectral_sher[[4]]
+
+# calculate NDVI using the red (band 1) and nir (band 4) bands
+naip_ndvi_sher <- (naip_multispectral_sher[[4]] - naip_multispectral_sher[[1]]) / (naip_multispectral_sher[[4]] + naip_multispectral_sher[[1]])
+
+# plot the data
+plot(naip_ndvi_sher,
+     main = "NDVI of Sherman Oaks, CA",
+     axes = FALSE, box = FALSE)
+
+# view distribution of NDVI values
+hist(naip_ndvi_sher,
+  main = "NDVI: Distribution of pixels\n NAIP Sherman Oaks, CA",
+  col = "springgreen",
+  xlab = "NDVI Index Value")
+``` 
+```{r}
+# import the naip pre-fire data
+naip_multispectral_si <- stack("~/GreenSpace_Thesis/Google Earth Images/Sincheon-dong, SK.png")
+# convert data into rasterbrick for faster processing
+
+naip_multispectral_si <- brick(naip_multispectral_si)
+
+# calculate ndvi with naip
+naip_multispectral_si[[4]]
+
+# calculate NDVI using the red (band 1) and nir (band 4) bands
+naip_ndvi_si <- (naip_multispectral_si[[4]] - naip_multispectral_si[[1]]) / (naip_multispectral_si[[4]] + naip_multispectral_si[[1]])
+
+# plot the data
+plot(naip_ndvi_si,
+     main = "NDVI of Sincheon-dong, SK",
+     axes = FALSE, box = FALSE)
+
+# view distribution of NDVI values
+hist(naip_ndvi_si,
+  main = "NDVI: Distribution of pixels\n NAIP Sincheon-dong, SK",
+  col = "springgreen",
+  xlab = "NDVI Index Value")
+``` 
+
+```{r}
+# import the naip pre-fire data
+naip_multispectral_shi <- stack("~/GreenSpace_Thesis/Google Earth Images/Shirokanedai, Japan.png")
+# convert data into rasterbrick for faster processing
+
+naip_multispectral_shi <- brick(naip_multispectral_shi)
+
+# calculate ndvi with naip
+naip_multispectral_shi[[4]]
+
+# calculate NDVI using the red (band 1) and nir (band 4) bands
+naip_ndvi_shi <- (naip_multispectral_shi[[4]] - naip_multispectral_shi[[1]]) / (naip_multispectral_shi[[4]] + naip_multispectral_shi[[1]])
+
+# plot the data
+plot(naip_ndvi_shi,
+     main = "NDVI of Shirokanedai, Japan",
+     axes = FALSE, box = FALSE)
+
+# view distribution of NDVI values
+hist(naip_ndvi_shi,
+  main = "NDVI: Distribution of pixels\n NAIP Shirokanedai, Japan",
+  col = "springgreen",
+  xlab = "NDVI Index Value")
+``` 
+
+```{r}
+# import the naip pre-fire data
+naip_multispectral_sho <- stack("~/GreenSpace_Thesis/Google Earth Images/Shoreline, WA.png")
+# convert data into rasterbrick for faster processing
+
+naip_multispectral_sho <- brick(naip_multispectral_sho)
+
+# calculate ndvi with naip
+naip_multispectral_sho[[4]]
+
+# calculate NDVI using the red (band 1) and nir (band 4) bands
+naip_ndvi_sho <- (naip_multispectral_sho[[4]] - naip_multispectral_sho[[1]]) / (naip_multispectral_sho[[4]] + naip_multispectral_sho[[1]])
+
+# plot the data
+plot(naip_ndvi_sho,
+     main = "NDVI of Shoreline, WA",
+     axes = FALSE, box = FALSE)
+
+# view distribution of NDVI values
+hist(naip_ndvi_sho,
+  main = "NDVI: Distribution of pixels\n NAIP Shoreline, WA",
+  col = "springgreen",
+  xlab = "NDVI Index Value")
+``` 
+
+```{r}
+# import the naip pre-fire data
+naip_multispectral_sil <- stack("~/GreenSpace_Thesis/Google Earth Images/Silverado, CA.png")
+# convert data into rasterbrick for faster processing
+
+naip_multispectral_sil <- brick(naip_multispectral_sil)
+
+# calculate ndvi with naip
+naip_multispectral_sil[[4]]
+
+# calculate NDVI using the red (band 1) and nir (band 4) bands
+naip_ndvi_sil <- (naip_multispectral_sil[[4]] - naip_multispectral_sil[[1]]) / (naip_multispectral_sil[[4]] + naip_multispectral_sil[[1]])
+
+# plot the data
+plot(naip_ndvi_sil,
+     main = "NDVI of Silverado, CA",
+     axes = FALSE, box = FALSE)
+
+# view distribution of NDVI values
+hist(naip_ndvi_sil,
+  main = "NDVI: Distribution of pixels\n NAIP Silverado, CA",
+  col = "springgreen",
+  xlab ="NDVI Index Value")
+```
+
+```{r}
+# import the naip pre-fire data
+naip_multispectral_sim <- stack("~/GreenSpace_Thesis/Google Earth Images/Simi Valley, CA.png")
+# convert data into rasterbrick for faster processing
+
+naip_multispectral_sim <- brick(naip_multispectral_sim)
+
+# calculate ndvi with naip
+naip_multispectral_sim[[4]]
+
+# calculate NDVI using the red (band 1) and nir (band 4) bands
+naip_ndvi_sim <- (naip_multispectral_sim[[4]] - naip_multispectral_sim[[1]]) / (naip_multispectral_sim[[4]] + naip_multispectral_sim[[1]])
+
+# plot the data
+plot(naip_ndvi_sim,
+     main = "NDVI of Simi Valley, CA",
+     axes = FALSE, box = FALSE)
+
+# view distribution of NDVI values
+hist(naip_ndvi_sim,
+  main = "NDVI: Distribution of pixels\n NAIP Simi Valley, CA",
+  col = "springgreen",
+  xlab ="NDVI Index Value")
+```
+
+```{r}
+# import the naip pre-fire data
+naip_multispectral_sims <- stack("~/GreenSpace_Thesis/Google Earth Images/Simsbury, CT.png")
+# convert data into rasterbrick for faster processing
+
+naip_multispectral_sims <- brick(naip_multispectral_sims)
+
+# calculate ndvi with naip
+naip_multispectral_sims[[4]]
+
+# calculate NDVI using the red (band 1) and nir (band 4) bands
+naip_ndvi_sims <- (naip_multispectral_sims[[4]] - naip_multispectral_sims[[1]]) / (naip_multispectral_sims[[4]] + naip_multispectral_sims[[1]])
+
+# plot the data
+plot(naip_ndvi_sims,
+     main = "NDVI of Simsbury, CT",
+     axes = FALSE, box = FALSE)
+
+# view distribution of NDVI values
+hist(naip_ndvi_sims,
+  main = "NDVI: Distribution of pixels\n NAIP Simsbury, CT",
+  col = "springgreen",
+  xlab ="NDVI Index Value")
+```
+
+```{r}
+# import the naip pre-fire data
+naip_multispectral_sing <- stack("~/GreenSpace_Thesis/Google Earth Images/Singapore, Singapore.png")
+# convert data into rasterbrick for faster processing
+
+naip_multispectral_sing <- brick(naip_multispectral_sing)
+
+# calculate ndvi with naip
+naip_multispectral_sing[[4]]
+
+# calculate NDVI using the red (band 1) and nir (band 4) bands
+naip_ndvi_sing <- (naip_multispectral_sing[[4]] - naip_multispectral_sing[[1]]) / (naip_multispectral_sing[[4]] + naip_multispectral_sing[[1]])
+
+# plot the data
+plot(naip_ndvi_sing,
+     main = "NDVI of Singapore, Singapore",
+     axes = FALSE, box = FALSE)
+
+# view distribution of NDVI values
+hist(naip_ndvi_sing,
+  main = "NDVI: Distribution of pixels\n NAIP Singapore, Singapore",
+  col = "springgreen",
+  xlab ="NDVI Index Value")
+```
+```{r}
+# import the naip pre-fire data
+naip_multispectral_son <- stack("~/GreenSpace_Thesis/Google Earth Images/Sonoma, CA.png")
+# convert data into rasterbrick for faster processing
+
+naip_multispectral_son <- brick(naip_multispectral_son)
+
+# calculate ndvi with naip
+naip_multispectral_son[[4]]
+
+# calculate NDVI using the red (band 1) and nir (band 4) bands
+naip_ndvi_son <- (naip_multispectral_son[[4]] - naip_multispectral_son[[1]]) / (naip_multispectral_son[[4]] + naip_multispectral_son[[1]])
+
+# plot the data
+plot(naip_ndvi_son,
+     main = "NDVI of Sonoma, CA",
+     axes = FALSE, box = FALSE)
+
+# view distribution of NDVI values
+hist(naip_ndvi_son,
+  main = "NDVI: Distribution of pixels\n NAIP Sonoma, CA",
+  col = "springgreen",
+  xlab ="NDVI Index Value")
+```
+
+```{r}
+# import the naip pre-fire data
+naip_multispectral_st <- stack("~/GreenSpace_Thesis/Google Earth Images/Stockton, CA.png")
+# convert data into rasterbrick for faster processing
+
+naip_multispectral_st <- brick(naip_multispectral_st)
+
+# calculate ndvi with naip
+naip_multispectral_st[[4]]
+
+# calculate NDVI using the red (band 1) and nir (band 4) bands
+naip_ndvi_st <- (naip_multispectral_st[[4]] - naip_multispectral_st[[1]]) / (naip_multispectral_st[[4]] + naip_multispectral_st[[1]])
+
+# plot the data
+plot(naip_ndvi_st,
+     main = "NDVI of Stockton, CA",
+     axes = FALSE, box = FALSE)
+
+# view distribution of NDVI values
+hist(naip_ndvi_st,
+  main = "NDVI: Distribution of pixels\n NAIP Stockton, CA",
+  col = "springgreen",
+  xlab ="NDVI Index Value")
+```
 
 
 
@@ -5853,7 +6120,15 @@ seb = Sebastopol, CA
 sha = Shanghai, China
 shap = Shapingba, China
 she = Shenzhen, China
-
+sho = Shoreline, WA
+sil = Silverado, CA
+sim = Simi Valley, CA 
+sims = Simsbury, CT
+sing = Singapore, Singapore
+son = Sonoma, CA
+South Pasadena = Pasadena 
+South SF = SF 
+st = Stockton, CA 
 
 
 
