@@ -8225,15 +8225,1369 @@ nr_lub <-getValues(naip_ndvi_lub)
 
 str(nr_lub)
 
+writeRaster(x = naip_ndvi_ma,
+            filename="~/final-individual-getlaam/NDVIcomglomma.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_ma <-getValues(naip_ndvi_ma)
 
+str(nr_ma)
 
+writeRaster(x = naip_ndvi_mar,
+            filename="~/final-individual-getlaam/NDVIcomglommar.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_mar <-getValues(naip_ndvi_mar)
 
+str(nr_mar)
 
+writeRaster(x = naip_ndvi_med,
+            filename="~/final-individual-getlaam/NDVIcomglommed.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_med <-getValues(naip_ndvi_med)
 
+str(nr_med)
 
+writeRaster(x = naip_ndvi_men,
+            filename="~/final-individual-getlaam/NDVIcomglommen.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_men <-getValues(naip_ndvi_men)
 
+str(nr_men)
 
+writeRaster(x = naip_ndvi_mer,
+            filename="~/final-individual-getlaam/NDVIcomglommer.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_mer <-getValues(naip_ndvi_mer)
 
+str(nr_mer)
+
+writeRaster(x = naip_ndvi_mi,
+            filename="~/final-individual-getlaam/NDVIcomglommi.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_mi <-getValues(naip_ndvi_mi)
+
+str(nr_mi)
+
+writeRaster(x = naip_ndvi_min,
+            filename="~/final-individual-getlaam/NDVIcomglommin.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_min <-getValues(naip_ndvi_min)
+
+str(nr_min)
+
+writeRaster(x = naip_ndvi_mis,
+            filename="~/final-individual-getlaam/NDVIcomglommis.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_mis <-getValues(naip_ndvi_mis)
+
+str(nr_mis)
+
+writeRaster(x = naip_ndvi_miz,
+            filename="~/final-individual-getlaam/NDVIcomglommiz.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_miz <-getValues(naip_ndvi_miz)
+
+str(nr_miz)
+
+writeRaster(x = naip_ndvi_mok,
+            filename="~/final-individual-getlaam/NDVIcomglommok.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_mok <-getValues(naip_ndvi_mok)
+
+str(nr_mok)
+
+writeRaster(x = naip_ndvi_mon,
+            filename="~/final-individual-getlaam/NDVIcomglommon.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_mon <-getValues(naip_ndvi_mon)
+
+str(nr_mon)
+
+writeRaster(x = naip_ndvi_mop,
+            filename="~/final-individual-getlaam/NDVIcomglommop.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_mop <-getValues(naip_ndvi_mop)
+
+str(nr_mop)
+
+writeRaster(x = naip_ndvi_mont,
+            filename="~/final-individual-getlaam/NDVIcomglommont.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_mont <-getValues(naip_ndvi_mont)
+
+str(nr_mont)
+
+writeRaster(x = naip_ndvi_mor,
+            filename="~/final-individual-getlaam/NDVIcomglommor.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_mor <-getValues(naip_ndvi_mor)
+
+str(nr_mor)
+
+writeRaster(x = naip_ndvi_mori,
+            filename="~/final-individual-getlaam/NDVIcomglommori.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_mori <-getValues(naip_ndvi_mori)
+
+str(nr_mori)
+
+writeRaster(x = naip_ndvi_mrd,
+            filename="~/final-individual-getlaam/NDVIcomglommrd.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_mrd <-getValues(naip_ndvi_mrd)
+
+str(nr_mrd)
+
+writeRaster(x = naip_ndvi_mv,
+            filename="~/final-individual-getlaam/NDVIcomglommv.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_mv <-getValues(naip_ndvi_mv)
+
+str(nr_mv)
+
+writeRaster(x = naip_ndvi_muk,
+            filename="~/final-individual-getlaam/NDVIcomglommuk.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_muk <-getValues(naip_ndvi_muk)
+
+str(nr_muk)
+
+writeRaster(x = naip_ndvi_mum,
+            filename="~/final-individual-getlaam/NDVIcomglommum.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_mum <-getValues(naip_ndvi_mum)
+
+str(nr_mum)
+
+writeRaster(x = naip_ndvi_mur,
+            filename="~/final-individual-getlaam/NDVIcomglommur.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_mur <-getValues(naip_ndvi_mur)
+
+str(nr_mur)
+
+writeRaster(x = naip_ndvi_nam,
+            filename="~/final-individual-getlaam/NDVIcomglomnam.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_nam <-getValues(naip_ndvi_nam)
+
+str(nr_nam)
+
+writeRaster(x = naip_ndvi_nan,
+            filename="~/final-individual-getlaam/NDVIcomglomnan.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_nan <-getValues(naip_ndvi_nan)
+
+str(nr_nan)
+
+writeRaster(x = naip_ndvi_nanj,
+            filename="~/final-individual-getlaam/NDVIcomglomnanj.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_nanj <-getValues(naip_ndvi_nanj)
+
+str(nr_nanj)
+
+writeRaster(x = naip_ndvi_nap,
+            filename="~/final-individual-getlaam/NDVIcomglomnap.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_nap <-getValues(naip_ndvi_nap)
+
+str(nr_nap)
+
+writeRaster(x = naip_ndvi_napr,
+            filename="~/final-individual-getlaam/NDVIcomglomnapr.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_napr <-getValues(naip_ndvi_napr)
+
+str(nr_napr)
+
+writeRaster(x = naip_ndvi_new,
+            filename="~/final-individual-getlaam/NDVIcomglomnew.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_new <-getValues(naip_ndvi_new)
+
+str(nr_new)
+
+writeRaster(x = naip_ndvi_newr,
+            filename="~/final-individual-getlaam/NDVIcomglomnewr.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_newr <-getValues(naip_ndvi_newr)
+
+str(nr_newr)
+
+writeRaster(x = naip_ndvi_nor,
+            filename="~/final-individual-getlaam/NDVIcomglomnor.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_nor <-getValues(naip_ndvi_nor)
+
+str(nr_nor)
+
+writeRaster(x = naip_ndvi_nort,
+            filename="~/final-individual-getlaam/NDVIcomglomnort.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_nort <-getValues(naip_ndvi_nort)
+
+str(nr_nort)
+
+writeRaster(x = naip_ndvi_nov,
+            filename="~/final-individual-getlaam/NDVIcomglomnov.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_nov <-getValues(naip_ndvi_nov)
+
+str(nr_nov)
+
+writeRaster(x = naip_ndvi_op,
+            filename="~/final-individual-getlaam/NDVIcomglomop.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_op <-getValues(naip_ndvi_op)
+
+str(nr_op)
+
+writeRaster(x = naip_ndvi_oa,
+            filename="~/final-individual-getlaam/NDVIcomglomoa.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_oa <-getValues(naip_ndvi_oa)
+
+str(nr_oa)
+
+writeRaster(x = naip_ndvi_oak,
+            filename="~/final-individual-getlaam/NDVIcomglomoak.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_oak <-getValues(naip_ndvi_oak)
+
+str(nr_oak)
+
+writeRaster(x = naip_ndvi_oj,
+            filename="~/final-individual-getlaam/NDVIcomglomoj.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_oj <-getValues(naip_ndvi_oj)
+
+str(nr_oj)
+
+writeRaster(x = naip_ndvi_ok,
+            filename="~/final-individual-getlaam/NDVIcomglomok.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_ok <-getValues(naip_ndvi_ok)
+
+str(nr_ok)
+
+writeRaster(x = naip_ndvi_ol,
+            filename="~/final-individual-getlaam/NDVIcomglomol.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_ol <-getValues(naip_ndvi_ol)
+
+str(nr_ol)
+
+writeRaster(x = naip_ndvi_or,
+            filename="~/final-individual-getlaam/NDVIcomglomor.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_or <-getValues(naip_ndvi_or)
+
+str(nr_or)
+
+writeRaster(x = naip_ndvi_orl,
+            filename="~/final-individual-getlaam/NDVIcomglomorl.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_orl <-getValues(naip_ndvi_orl)
+
+str(nr_orl)
+
+writeRaster(x = naip_ndvi_ory,
+            filename="~/final-individual-getlaam/NDVIcomglomop.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_ory <-getValues(naip_ndvi_ory)
+
+str(nr_ory)
+
+writeRaster(x = naip_ndvi_ov,
+            filename="~/final-individual-getlaam/NDVIcomglomov.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_ov <-getValues(naip_ndvi_ov)
+
+str(nr_ov)
+
+writeRaster(x = naip_ndvi_ox,
+            filename="~/final-individual-getlaam/NDVIcomglomox.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_ox <-getValues(naip_ndvi_ox)
+
+str(nr_ox)
+
+writeRaster(x = naip_ndvi_pc,
+            filename="~/final-individual-getlaam/NDVIcomglompc.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_pc <-getValues(naip_ndvi_pc)
+
+str(nr_pc)
+
+writeRaster(x = naip_ndvi_pa,
+            filename="~/final-individual-getlaam/NDVIcomglompa.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_pa <-getValues(naip_ndvi_pa)
+
+str(nr_pa)
+
+writeRaster(x = naip_ndvi_pave,
+            filename="~/final-individual-getlaam/NDVIcomglompave.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_pave <-getValues(naip_ndvi_pave)
+
+str(nr_pave)
+
+writeRaster(x = naip_ndvi_pv,
+            filename="~/final-individual-getlaam/NDVIcomglompv.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_pv <-getValues(naip_ndvi_pv)
+
+str(nr_pv)
+
+writeRaster(x = naip_ndvi_pap,
+            filename="~/final-individual-getlaam/NDVIcomglompap.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_pap <-getValues(naip_ndvi_pap)
+
+str(nr_pap)
+
+writeRaster(x = naip_ndvi_pas,
+            filename="~/final-individual-getlaam/NDVIcomglompas.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_pas <-getValues(naip_ndvi_pas)
+
+str(nr_pas)
+
+writeRaster(x = naip_ndvi_pe,
+            filename="~/final-individual-getlaam/NDVIcomglompe.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_pe <-getValues(naip_ndvi_pe)
+
+str(nr_pe)
+
+writeRaster(x = naip_ndvi_ph,
+            filename="~/final-individual-getlaam/NDVIcomglomph.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_ph <-getValues(naip_ndvi_ph)
+
+str(nr_ph)
+
+writeRaster(x = naip_ndvi_pi,
+            filename="~/final-individual-getlaam/NDVIcomglompi.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_pi <-getValues(naip_ndvi_pi)
+
+str(nr_pi)
+
+writeRaster(x = naip_ndvi_pl,
+            filename="~/final-individual-getlaam/NDVIcomglompl.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_pl <-getValues(naip_ndvi_pl)
+
+str(nr_pl)
+
+writeRaster(x = naip_ndvi_ple,
+            filename="~/final-individual-getlaam/NDVIcomglomple.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_ple <-getValues(naip_ndvi_ple)
+
+str(nr_ple)
+
+writeRaster(x = naip_ndvi_pp,
+            filename="~/final-individual-getlaam/NDVIcomglompp.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_pp <-getValues(naip_ndvi_pp)
+
+str(nr_pp)
+
+writeRaster(x = naip_ndvi_po,
+            filename="~/final-individual-getlaam/NDVIcomglompo.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_po <-getValues(naip_ndvi_po)
+
+str(nr_po)
+
+writeRaster(x = naip_ndvi_pm,
+            filename="~/final-individual-getlaam/NDVIcomglompm.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_pm <-getValues(naip_ndvi_pm)
+
+str(nr_pm)
+
+writeRaster(x = naip_ndvi_por,
+            filename="~/final-individual-getlaam/NDVIcomglompor.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_por <-getValues(naip_ndvi_por)
+
+str(nr_por)
+
+writeRaster(x = naip_ndvi_pr,
+            filename="~/final-individual-getlaam/NDVIcomglompr.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_pr <-getValues(naip_ndvi_pr)
+
+str(nr_pr)
+
+writeRaster(x = naip_ndvi_pri,
+            filename="~/final-individual-getlaam/NDVIcomglompri.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_pri <-getValues(naip_ndvi_pri)
+
+str(nr_pri)
+
+writeRaster(x = naip_ndvi_pu,
+            filename="~/final-individual-getlaam/NDVIcomglompu.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_pu <-getValues(naip_ndvi_pu)
+
+str(nr_pu)
+
+writeRaster(x = naip_ndvi_pb,
+            filename="~/final-individual-getlaam/NDVIcomglompb.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_pb <-getValues(naip_ndvi_pb)
+
+str(nr_pb)
+
+writeRaster(x = naip_ndvi_q,
+            filename="~/final-individual-getlaam/NDVIcomglomq.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_q <-getValues(naip_ndvi_q)
+
+str(nr_q)
+
+writeRaster(x = naip_ndvi_rc,
+            filename="~/final-individual-getlaam/NDVIcomglomrc.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_rc <-getValues(naip_ndvi_rc)
+
+str(nr_rc)
+
+writeRaster(x = naip_ndvi_rcu,
+            filename="~/final-individual-getlaam/NDVIcomglomrcu.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_rcu <-getValues(naip_ndvi_rcu)
+
+str(nr_rcu)
+
+"Rancho Palos Verdes = Palos Verdes"
+
+writeRaster(x = naip_ndvi_re,
+            filename="~/final-individual-getlaam/NDVIcomglomre.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_re <-getValues(naip_ndvi_re)
+
+str(nr_re)
+
+writeRaster(x = naip_ndvi_rw,
+            filename="~/final-individual-getlaam/NDVIcomglomrw.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_rw <-getValues(naip_ndvi_rw)
+
+str(nr_rw)
+
+writeRaster(x = naip_ndvi_ri,
+            filename="~/final-individual-getlaam/NDVIcomglomri.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_ri <-getValues(naip_ndvi_ri)
+
+str(nr_ri)
+
+writeRaster(x = naip_ndvi_rob,
+            filename="~/final-individual-getlaam/NDVIcomglomrob.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_rob <-getValues(naip_ndvi_rob)
+
+str(nr_rob)
+
+writeRaster(x = naip_ndvi_roc,
+            filename="~/final-individual-getlaam/NDVIcomglomroc.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_roc <-getValues(naip_ndvi_roc)
+
+str(nr_roc)
+
+writeRaster(x = naip_ndvi_rod,
+            filename="~/final-individual-getlaam/NDVIcomglomrod.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_rod <-getValues(naip_ndvi_rod)
+
+str(nr_rod)
+
+writeRaster(x = naip_ndvi_sac,
+            filename="~/final-individual-getlaam/NDVIcomglomsac.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_sac <-getValues(naip_ndvi_sac)
+
+str(nr_sac)
+
+writeRaster(x = naip_ndvi_sm,
+            filename="~/final-individual-getlaam/NDVIcomglomsm.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_sm <-getValues(naip_ndvi_sm)
+
+str(nr_sm)
+
+writeRaster(x = naip_ndvi_sld,
+            filename="~/final-individual-getlaam/NDVIcomglomsld.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_sld <-getValues(naip_ndvi_sld)
+
+str(nr_sld)
+
+writeRaster(x = naip_ndvi_sln,
+            filename="~/final-individual-getlaam/NDVIcomglomsln.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_sln <-getValues(naip_ndvi_sln)
+
+str(nr_sln)
+
+writeRaster(x = naip_ndvi_slcu,
+            filename="~/final-individual-getlaam/NDVIcomglomslcu.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_slcu <-getValues(naip_ndvi_slcu)
+
+str(nr_slcu)
+
+writeRaster(x = naip_ndvi_sbr,
+            filename="~/final-individual-getlaam/NDVIcomglomsbr.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_sbr <-getValues(naip_ndvi_sbr)
+
+str(nr_sbr)
+
+writeRaster(x = naip_ndvi_sc,
+            filename="~/final-individual-getlaam/NDVIcomglomsc.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_sc <-getValues(naip_ndvi_sc)
+
+str(nr_sc)
+
+writeRaster(x = naip_ndvi_scc,
+            filename="~/final-individual-getlaam/NDVIcomglomscc.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_scc <-getValues(naip_ndvi_scc)
+
+str(nr_scc)
+
+writeRaster(x = naip_ndvi_sfr,
+            filename="~/final-individual-getlaam/NDVIcomglomsfr.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_sfr <-getValues(naip_ndvi_sfr)
+
+str(nr_sfr)
+
+writeRaster(x = naip_ndvi_sf,
+            filename="~/final-individual-getlaam/NDVIcomglomsf.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_sf <-getValues(naip_ndvi_sf)
+
+str(nr_sf)
+
+writeRaster(x = naip_ndvi_sg,
+            filename="~/final-individual-getlaam/NDVIcomglomsg.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_sg <-getValues(naip_ndvi_sg)
+
+str(nr_sg)
+
+writeRaster(x = naip_ndvi_sj,
+            filename="~/final-individual-getlaam/NDVIcomglomsj.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_sj <-getValues(naip_ndvi_sj)
+
+str(nr_sj)
+
+writeRaster(x = naip_ndvi_sl,
+            filename="~/final-individual-getlaam/NDVIcomglomsl.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_sl <-getValues(naip_ndvi_sl)
+
+str(nr_sl)
+
+writeRaster(x = naip_ndvi_slor,
+            filename="~/final-individual-getlaam/NDVIcomglomslor.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_slor <-getValues(naip_ndvi_slor)
+
+str(nr_slor)
+
+writeRaster(x = naip_ndvi_slb,
+            filename="~/final-individual-getlaam/NDVIcomglomslb.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_slb <-getValues(naip_ndvi_slb)
+
+str(nr_slb)
+
+writeRaster(x = naip_ndvi_smr,
+            filename="~/final-individual-getlaam/NDVIcomglomsmr.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_smr <-getValues(naip_ndvi_smr)
+
+str(nr_smr)
+
+writeRaster(x = naip_ndvi_smt,
+            filename="~/final-individual-getlaam/NDVIcomglomsmt.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_smt <-getValues(naip_ndvi_smt)
+
+str(nr_smt)
+
+writeRaster(x = naip_ndvi_sp,
+            filename="~/final-individual-getlaam/NDVIcomglomsp.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_sp <-getValues(naip_ndvi_sp)
+
+str(nr_sp)
+
+writeRaster(x = naip_ndvi_spe,
+            filename="~/final-individual-getlaam/NDVIcomglomspe.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_spe <-getValues(naip_ndvi_spe)
+
+str(nr_spe)
+
+writeRaster(x = naip_ndvi_sr,
+            filename="~/final-individual-getlaam/NDVIcomglomsr.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_sr <-getValues(naip_ndvi_sr)
+
+str(nr_sr)
+
+writeRaster(x = naip_ndvi_srm,
+            filename="~/final-individual-getlaam/NDVIcomglomsrm.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_srm <-getValues(naip_ndvi_srm)
+
+str(nr_srm)
+
+writeRaster(x = naip_ndvi_sb,
+            filename="~/final-individual-getlaam/NDVIcomglomsb.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_sb <-getValues(naip_ndvi_sb)
+
+str(nr_sb)
+
+writeRaster(x = naip_ndvi_scl,
+            filename="~/final-individual-getlaam/NDVIcomglomscl.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_scl <-getValues(naip_ndvi_scl)
+
+str(nr_scl)
+
+writeRaster(x = naip_ndvi_scr,
+            filename="~/final-individual-getlaam/NDVIcomglomscr.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_scr <-getValues(naip_ndvi_scr)
+
+str(nr_scr)
+
+writeRaster(x = naip_ndvi_sma,
+            filename="~/final-individual-getlaam/NDVIcomglomsma.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_sma <-getValues(naip_ndvi_sma)
+
+str(nr_sma)
+
+writeRaster(x = naip_ndvi_smo,
+            filename="~/final-individual-getlaam/NDVIcomglomsmo.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_smo <-getValues(naip_ndvi_smo)
+
+str(nr_smo)
+
+writeRaster(x = naip_ndvi_sro,
+            filename="~/final-individual-getlaam/NDVIcomglomsro.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_sro <-getValues(naip_ndvi_sro)
+
+str(nr_sro)
+
+writeRaster(x = naip_ndvi_san,
+            filename="~/final-individual-getlaam/NDVIcomglomsan.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_san <-getValues(naip_ndvi_san)
+
+str(nr_san)
+
+writeRaster(x = naip_ndvi_sant,
+            filename="~/final-individual-getlaam/NDVIcomglomsant.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_sant <-getValues(naip_ndvi_sant)
+
+str(nr_sant)
+
+writeRaster(x = naip_ndvi_spb,
+            filename="~/final-individual-getlaam/NDVIcomglomspb.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_spb <-getValues(naip_ndvi_spb)
+
+str(nr_spb)
+
+writeRaster(x = naip_ndvi_sar,
+            filename="~/final-individual-getlaam/NDVIcomglomsar.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_sar <-getValues(naip_ndvi_sar)
+
+str(nr_sar)
+
+writeRaster(x = naip_ndvi_sau,
+            filename="~/final-individual-getlaam/NDVIcomglomsau.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_sau <-getValues(naip_ndvi_sau)
+
+str(nr_sau)
+
+writeRaster(x = naip_ndvi_seb,
+            filename="~/final-individual-getlaam/NDVIcomglomseb.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_seb <-getValues(naip_ndvi_seb)
+
+str(nr_seb)
+
+writeRaster(x = naip_ndvi_sha,
+            filename="~/final-individual-getlaam/NDVIcomglomsha.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_sha <-getValues(naip_ndvi_sha)
+
+str(nr_sha)
+
+writeRaster(x = naip_ndvi_shap,
+            filename="~/final-individual-getlaam/NDVIcomglomshap.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_shap <-getValues(naip_ndvi_shap)
+
+str(nr_shap)
+
+writeRaster(x = naip_ndvi_she,
+            filename="~/final-individual-getlaam/NDVIcomglomshe.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_she <-getValues(naip_ndvi_she)
+
+str(nr_she)
+
+writeRaster(x = naip_ndvi_sho,
+            filename="~/final-individual-getlaam/NDVIcomglomsho.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_sho <-getValues(naip_ndvi_sho)
+
+str(nr_sho)
+
+writeRaster(x = naip_ndvi_sil,
+            filename="~/final-individual-getlaam/NDVIcomglomsil.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_sil <-getValues(naip_ndvi_sil)
+
+str(nr_sil)
+
+writeRaster(x = naip_ndvi_sim,
+            filename="~/final-individual-getlaam/NDVIcomglomsim.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_sim <-getValues(naip_ndvi_sim)
+
+str(nr_sim)
+
+writeRaster(x = naip_ndvi_sims,
+            filename="~/final-individual-getlaam/NDVIcomglomsims.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_sims <-getValues(naip_ndvi_sims)
+
+str(nr_sims)
+
+writeRaster(x = naip_ndvi_sing,
+            filename="~/final-individual-getlaam/NDVIcomglomsing.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_sing <-getValues(naip_ndvi_sing)
+
+str(nr_sing)
+
+writeRaster(x = naip_ndvi_son,
+            filename="~/final-individual-getlaam/NDVIcomglomson.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_son <-getValues(naip_ndvi_son)
+
+str(nr_son)
+
+"South Pasadena = Pasadena 
+South SF = SF"
+
+writeRaster(x = naip_ndvi_st,
+            filename="~/final-individual-getlaam/NDVIcomglomst.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_st <-getValues(naip_ndvi_st)
+
+str(nr_st)
+
+writeRaster(x = naip_ndvi_stu,
+            filename="~/final-individual-getlaam/NDVIcomglomstu.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_stu <-getValues(naip_ndvi_stu)
+
+str(nr_stu)
+
+writeRaster(x = naip_ndvi_sun,
+            filename="~/final-individual-getlaam/NDVIcomglomsun.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_sun <-getValues(naip_ndvi_sun)
+
+str(nr_sun)
+
+writeRaster(x = naip_ndvi_surr,
+            filename="~/final-individual-getlaam/NDVIcomglomsurr.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_surr <-getValues(naip_ndvi_surr)
+
+str(nr_surr)
+
+writeRaster(x = naip_ndvi_sus,
+            filename="~/final-individual-getlaam/NDVIcomglomsus.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_sus <-getValues(naip_ndvi_sus)
+
+str(nr_sus)
+
+writeRaster(x = naip_ndvi_t,
+            filename="~/final-individual-getlaam/NDVIcomglomt.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_t <-getValues(naip_ndvi_t)
+
+str(nr_t)
+
+writeRaster(x = naip_ndvi_tc,
+            filename="~/final-individual-getlaam/NDVIcomglomtc.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_tc <-getValues(naip_ndvi_tc)
+
+str(nr_tc)
+
+writeRaster(x = naip_ndvi_to,
+            filename="~/final-individual-getlaam/NDVIcomglomto.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_to <-getValues(naip_ndvi_to)
+
+str(nr_to)
+
+writeRaster(x = naip_ndvi_tor,
+            filename="~/final-individual-getlaam/NDVIcomglomtor.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_tor <-getValues(naip_ndvi_tor)
+
+str(nr_tor)
+
+writeRaster(x = naip_ndvi_ta,
+            filename="~/final-individual-getlaam/NDVIcomglomta.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_ta <-getValues(naip_ndvi_ta)
+
+str(nr_ta)
+
+writeRaster(x = naip_ndvi_tuj,
+            filename="~/final-individual-getlaam/NDVIcomglomtuj.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_tuj <-getValues(naip_ndvi_tuj)
+
+str(nr_tuj)
+
+writeRaster(x = naip_ndvi_tus,
+            filename="~/final-individual-getlaam/NDVIcomglomtus.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_tus <-getValues(naip_ndvi_tus)
+
+str(nr_tus)
+
+writeRaster(x = naip_ndvi_uc,
+            filename="~/final-individual-getlaam/NDVIcomglomuc.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_uc <-getValues(naip_ndvi_uc)
+
+str(nr_uc)
+
+writeRaster(x = naip_ndvi_up,
+            filename="~/final-individual-getlaam/NDVIcomglomup.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_up <-getValues(naip_ndvi_up)
+
+str(nr_up)
+
+writeRaster(x = naip_ndvi_va,
+            filename="~/final-individual-getlaam/NDVIcomglomva.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_va <-getValues(naip_ndvi_va)
+
+str(nr_va)
+
+writeRaster(x = naip_ndvi_vf,
+            filename="~/final-individual-getlaam/NDVIcomglomvf.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_vf <-getValues(naip_ndvi_vf)
+
+str(nr_vf)
+
+writeRaster(x = naip_ndvi_vv,
+            filename="~/final-individual-getlaam/NDVIcomglomvv.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_vv <-getValues(naip_ndvi_vv)
+
+str(nr_vv)
+
+writeRaster(x = naip_ndvi_van,
+            filename="~/final-individual-getlaam/NDVIcomglomvan.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_van <-getValues(naip_ndvi_van)
+
+str(nr_van)
+
+writeRaster(x = naip_ndvi_ve,
+            filename="~/final-individual-getlaam/NDVIcomglomve.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_ve <-getValues(naip_ndvi_ve)
+
+str(nr_ve)
+
+writeRaster(x = naip_ndvi_wc,
+            filename="~/final-individual-getlaam/NDVIcomglomwc.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_wc <-getValues(naip_ndvi_wc)
+
+str(nr_wc)
+
+writeRaster(x = naip_ndvi_w,
+            filename="~/final-individual-getlaam/NDVIcomglomw.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_w <-getValues(naip_ndvi_w)
+
+str(nr_w)
+
+writeRaster(x = naip_ndvi_wdc,
+            filename="~/final-individual-getlaam/NDVIcomglomwdc.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_wdc <-getValues(naip_ndvi_wdc)
+
+str(nr_wdc)
+
+writeRaster(x = naip_ndvi_wat,
+            filename="~/final-individual-getlaam/NDVIcomglomwat.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_wat <-getValues(naip_ndvi_wat)
+
+str(nr_wat)
+
+writeRaster(x = naip_ndvi_wco,
+            filename="~/final-individual-getlaam/NDVIcomglomwco.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_wco <-getValues(naip_ndvi_wco)
+
+str(nr_wco)
+
+writeRaster(x = naip_ndvi_wl,
+            filename="~/final-individual-getlaam/NDVIcomglomwl.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_wl <-getValues(naip_ndvi_wl)
+
+str(nr_wl)
+
+writeRaster(x = naip_ndvi_wes,
+            filename="~/final-individual-getlaam/NDVIcomglomwes.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_wes <-getValues(naip_ndvi_wes)
+
+str(nr_wes)
+
+writeRaster(x = naip_ndvi_west,
+            filename="~/final-individual-getlaam/NDVIcomglomwest.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_west <-getValues(naip_ndvi_west)
+
+str(nr_west)
+
+writeRaster(x = naip_ndvi_wh,
+            filename="~/final-individual-getlaam/NDVIcomglomwh.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_wh <-getValues(naip_ndvi_wh)
+
+str(nr_wh)
+
+writeRaster(x = naip_ndvi_whi,
+            filename="~/final-individual-getlaam/NDVIcomglomwhi.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_whi <-getValues(naip_ndvi_whi)
+
+str(nr_whi)
+
+writeRaster(x = naip_ndvi_wil,
+            filename="~/final-individual-getlaam/NDVIcomglomwil.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_wil <-getValues(naip_ndvi_wil)
+
+str(nr_wil)
+
+writeRaster(x = naip_ndvi_win,
+            filename="~/final-individual-getlaam/NDVIcomglomwin.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_win <-getValues(naip_ndvi_win)
+
+str(nr_win)
+
+writeRaster(x = naip_ndvi_wind,
+            filename="~/final-individual-getlaam/NDVIcomglomwind.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_wind <-getValues(naip_ndvi_wind)
+
+str(nr_wind)
+
+writeRaster(x = naip_ndvi_wood,
+            filename="~/final-individual-getlaam/NDVIcomglomwood.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_wood <-getValues(naip_ndvi_wood)
+
+str(nr_wood)
+
+writeRaster(x = naip_ndvi_woodl,
+            filename="~/final-individual-getlaam/NDVIcomglomwoddl.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_woodl <-getValues(naip_ndvi_woodl)
+
+str(nr_woodl)
+
+writeRaster(x = naip_ndvi_woodlh,
+            filename="~/final-individual-getlaam/NDVIcomglomwoodlh.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_woodlh <-getValues(naip_ndvi_woodlh)
+
+str(nr_woodlh)
+
+writeRaster(x = naip_ndvi_xi,
+            filename="~/final-individual-getlaam/NDVIcomglomxi.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_xi <-getValues(naip_ndvi_xi)
+
+str(nr_xi)
+
+writeRaster(x = naip_ndvi_xia,
+            filename="~/final-individual-getlaam/NDVIcomglomxia.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_xia <-getValues(naip_ndvi_xia)
+
+str(nr_xia)
+
+writeRaster(x = naip_ndvi_xic,
+            filename="~/final-individual-getlaam/NDVIcomglomxic.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_xic <-getValues(naip_ndvi_xic)
+
+str(nr_xic)
+
+writeRaster(x = naip_ndvi_yl,
+            filename="~/final-individual-getlaam/NDVIcomglomyl.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_yl <-getValues(naip_ndvi_yl)
+
+str(nr_yl)
+
+writeRaster(x = naip_ndvi_yz,
+            filename="~/final-individual-getlaam/NDVIcomglomyz.tif", 	
+            format = "GTiff", 					# save as a tif
+            datatype = 'INT2S',
+            overwrite = TRUE) 
+nr_yz <-getValues(naip_ndvi_yz)
+
+str(nr_yz)
 
 ```
 
